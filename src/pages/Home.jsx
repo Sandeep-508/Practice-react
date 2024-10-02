@@ -7,7 +7,7 @@ import FormValidationWithZod from "../components/FormValidationWithZod"
 const Home = () => {
     return (
         <div className="gap-10">
-            {/* <Link to={"/"} className="text-blue ps-3">Home</Link>
+            <Link to={"/"} className="text-blue ps-3">Home</Link>
             <Link to={"/about"} className="text-blue ps-3">About</Link>
             <Link to={"/contact"} className="text-blue ps-3">ContactUs</Link>
             <Link to={`/blog`} className="text-blue ps-3">Blogs</Link>
@@ -19,7 +19,7 @@ const Home = () => {
                 <p className="ps-3 text-4xl">Learn</p>
                 <ReactTyped className='ps-3 text-4xl' strings={["Web development", "Digital Marketing", "Ethical Hacking"]} typeSpeed={100}
                     loop={true} backSpeed={50} />
-            </div> */}
+            </div>
             <FormValidationHook />
             <MyValidation />
             <FormValidationWithZod />
