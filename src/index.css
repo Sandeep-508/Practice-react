@@ -7,3 +7,25 @@
 * {
     font-family: "Roboto", sans-serif;
 }
+
+input {
+    @apply outline-none border border-black px-4 py-3 rounded-lg !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    appearance: textfield;
+}
+
+input:-webkit-autofill {
+    -webkit-background-clip: black !important;
+    -webkit-text-fill-color: black !important;
+    background-color: black !important;
+    -webkit-transition: background-color 5000s ease-in-out 0s !important;
+    transition: background-color 5000s ease-in-out 0s !important;
+}
