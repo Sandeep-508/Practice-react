@@ -31,6 +31,7 @@ const FormValidationHook = () => {
                     {...register("email", {
                         required: "Email is required",
                         pattern: {
+                            // inside the pattern we can use condition on which it will pass the validation
                             value: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i,
                             message: "Enter a valid email address"
                         }
