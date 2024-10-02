@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { ReactTyped } from "react-typed"
 import FormValidationHook from "../components/FormValidationHook"
+import FormValidationWithZod from "../components/FormValidationWithZod"
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
                     loop={true} backSpeed={50} />
             </div> */}
             <FormValidationHook />
+            <FormValidationWithZod />
         </div>
     )
 }
