@@ -1,3 +1,4 @@
+import { Input } from "@mui/material";
 import { useForm } from "react-hook-form"
 import { toast, ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
@@ -23,7 +24,7 @@ const FormValidationHook = () => {
     return (
         <div className="p-20">
             <form className="grid grid-rows-1 gap-5 max-w-[500px] mx-auto" onSubmit={handleSubmit(onSubmit)}>
-                <input
+                <Input
                     {...register("name", { required: "Name is required" })}
                     type="text" name='name' placeholder="enter name" />
                 <span className="-mt-4 h-4">{errors.name?.message}</span>

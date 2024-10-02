@@ -1,9 +1,10 @@
 import { useForm } from "react-hook-form"
 
 const MyValidation = () => {
-    const { handleSubmit, register, formState: { errors } } = useForm()
+    const { handleSubmit, register, formState: { errors }, reset } = useForm()
     const onSubmit = (data) => {
         console.log(data)
+        reset();
     }
     return (
         <form onClick={handleSubmit(onSubmit)}>

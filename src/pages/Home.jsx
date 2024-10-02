@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { ReactTyped } from "react-typed"
 import FormValidationHook from "../components/FormValidationHook"
 import MyValidation from "../components/MyValidation"
+import FormValidationWithZod from "../components/FormValidationWithZod"
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             </div> */}
             <FormValidationHook />
             <MyValidation />
+            <FormValidationWithZod />
         </div>
     )
 }
