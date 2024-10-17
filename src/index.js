@@ -12,6 +12,7 @@ import Blogs from './pages/Blogs';
 import Timer from './components/Timer';
 import Question from './components/Questions';
 import FormValidation from './components/FormValidation';
+import CurdOperations from './components/CurdOperations';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 let Routes = createBrowserRouter(
@@ -51,6 +52,10 @@ let Routes = createBrowserRouter(
     {
       path: "/form",
       element: <FormValidation />
+    },
+    {
+      path: "/curd",
+      element: <CurdOperations />
     }
   ]
 )

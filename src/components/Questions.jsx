@@ -4,6 +4,7 @@ import { act, useState } from "react"
 import Faqs from './Faqs'
 import ToDoList from "./ToDoList"
 import Tabbing from "./Tabbing"
+import Charts from "./Charts"
 
 const Question = () => {
     // first
@@ -67,6 +68,8 @@ const Question = () => {
             <ToDoList />
             {/* sixth */}
             <Tabbing />
+            {/* Charts */}
+            <Charts />
         </div>
     )
 }

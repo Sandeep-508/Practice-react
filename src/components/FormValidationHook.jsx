@@ -51,7 +51,7 @@ const FormValidationHook = () => {
                             message: "Phone number must be exactly 10 digits"
                         }
                     })}
-                    type="number" name="phone" placeholder="enter phone number" />
+                    type="number" name="phone" placeholder="Enter phone number" />
                 <span className="-mt-4 h-4">{errors.phone?.message}</span>
                 <button type="submit" className="border border-black bg-white rounded-lg py-3 px-5 mt-5">Submit</button>
             </form>
