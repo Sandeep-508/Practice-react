@@ -151,3 +151,315 @@ export const TABS_DATA_LIST = [
         subtitle: "Fine Arts",
     },
 ];
+
+export const VALUES_LIST = [
+    {
+        upperCaseLetters: [
+            'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+            'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
+        ],
+        lowerCaseLetters: [
+            'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+            'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
+        ],
+        numbers: [
+            '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'
+        ],
+        symbols: [
+            '!', '@', '#', '$', '%', '^', '&', '*', '(', ')'
+        ]
+    }
+];
+
+export const USER_PROFILE_DATA_LIST = [
+    {
+        profile: {
+            name: "Ezra Howard",
+            username: "@ezra_howard123",
+            followers: "1.2K",
+            following: 180,
+            artworks: 35,
+            gallery: {
+                name: "Modern Art Gallery",
+                artworksCount: 55,
+            }
+        },
+        data: {
+            artworks: [
+                {
+                    about: [
+                        "An abstract exploration of color and form, where geometric shapes collide and blend seamlessly.",
+                        "Inspired by the Bauhaus movement, this piece emphasizes minimalism and functionality.",
+                        "A contemporary reimagining of traditional art forms, merging classic elements with modern aesthetics.",
+                    ],
+                    date: "",
+                    artistType: "Geometric Harmony",
+                    detailsData: [
+                        {
+                            title: "Price Range",
+                            subtitle: "$10,000",
+                        },
+                        {
+                            title: "Project Duration",
+                            subtitle: "6+ Months",
+                        },
+                        {
+                            title: "Area of Expertise",
+                            subtitle: "Fine Arts",
+                        },
+                    ]
+                },
+                {
+                    about: [
+                        "This artwork captures the serenity of nature through soft brush strokes and muted colors.",
+                        "A vibrant depiction of urban life, filled with dynamic energy and bustling cityscapes.",
+                        "An intricate mosaic of textures and patterns, evoking a sense of harmony and balance.",
+                    ],
+                    date: "03 Oct 2024",
+                    artistType: "Shadows of Modernity",
+                    detailsData: [
+                        {
+                            title: "Price Range",
+                            subtitle: "$15,000",
+                        },
+                        {
+                            title: "Project Duration",
+                            subtitle: "5+ Months",
+                        },
+                        {
+                            title: "Area of Expertise",
+                            subtitle: "Fine Arts",
+                        },
+                    ]
+                },
+            ],
+        },
+        about: [
+            `Ezra Howard’s "Vivid Landscape," offers an immersive glimpse into the untouched beauty of nature. Through vibrant, almost pulsating colors, Howard brings to life the richness of a dense forest, capturing the raw energy and serenity of the wild. The painting’s intricate details and the expertly rendered play of light and shadow create a deep sense of perspective, drawing the viewer into the heart of the landscape. Each brushstroke seems to echo the untamed spirit of nature, making it a truly awe-inspiring representation of the natural world.`,
+            `
+In "Street Serenade," Howard shifts focus to the bustling rhythm of urban life. The artwork juxtaposes sharp, angular geometric shapes with flowing, organic strokes to reflect the dynamic energy of the city. There’s a sense of movement and noise within the composition, where the chaos of the streets is balanced by moments of unexpected harmony. This piece captures the pulse of urban environments, where order and disorder coexist, reflecting the complexities of modern city life through a vivid, almost musical visual narrative.
+`,
+            `With "Tranquil Waters," Howard offers a contrast to the vibrancy of his other works, presenting a moment of calm by a quiet lakeside. The painting is a study in subtlety, where gentle ripples on the water and soft reflections create a meditative atmosphere. Howard’s masterful use of light and shadow gives the scene a sense of depth and serenity, inviting the viewer to pause and breathe. The tranquility of the scene evokes a feeling of peace, making it a captivating representation of nature’s quiet moments.`,
+        ],
+        logOutDescription:
+            "Stay ahead with the latest in creativity by embracing new trends, ideas, and innovations in the ever-evolving world of design and artistry.",
+        recruiting: "Recruiting Heroes LLC, +1 More",
+        college: "American Samoa Community College",
+    },
+    {
+        profile: {
+            name: "Darrell Steward",
+            username: "@darrell_23",
+            followers: "3.5K",
+            following: 320,
+            artworks: 50,
+            gallery: {
+                name: "Interior Premium",
+                artworksCount: 13,
+            }
+        },
+        data: {
+            artworks: [
+                {
+                    about: [
+                        "An abstract exploration of color and form, where geometric shapes converge, collide, and fluidly merge to create a dynamic yet harmonious visual experience. Rooted in the Bauhaus movement’s principles, the composition emphasizes minimalism, functionality, and balance. The artwork incorporates clean, precise lines and bold geometric forms, blending traditional artistic elements with a modern, minimalist approach.",
+                        "The interplay of shapes and colors is both deliberate and organic, as angular and circular forms interact, creating a sense of motion and continuity. The subdued yet striking color palette complements the structured layout, inviting the viewer to experience a balance between simplicity and complexity.",
+                        "This contemporary reimagining of Bauhaus techniques brings together the discipline of geometry and the freedom of abstraction, resulting in a thoughtful composition that bridges the gap between classic and modern aesthetics. The portfolio embodies a fusion of functionality and artistry, where each form has purpose, yet the overall arrangement feels expressive and free.",
+                    ],
+                    date: "04 Oct 2024",
+                    artistType: "Geometric Harmony",
+                    detailsData: [
+                        {
+                            title: "Price Range",
+                            subtitle: "$10,000",
+                        },
+                        {
+                            title: "Project Duration",
+                            subtitle: "6+ Months",
+                        },
+                        {
+                            title: "Area of Expertise",
+                            subtitle: "Fine Arts",
+                        },
+                    ],
+                },
+                {
+                    about: [
+                        "This artwork juxtaposes two contrasting worlds: the tranquility of nature and the vibrant pulse of urban life. Through the use of soft brushstrokes and muted colors, it captures the peaceful essence of natural landscapes, evoking calmness and serenity. In contrast, the dynamic energy of bustling cityscapes is depicted with bold strokes and vibrant hues, showcasing the fast-paced rhythm of urban existence.",
+                        "At the heart of the portfolio lies an intricate mosaic of textures and patterns that blend both realms seamlessly. The juxtaposition of nature’s calm with the city’s intensity creates a compelling dialogue between stillness and motion, chaos and balance. ",
+                        "Every element—whether subtle or striking—works in unison to evoke a sense of harmony, where opposing forces coexist, reflecting the complexity and beauty of the world we inhabit.",
+                    ],
+                    date: "01 May 2024",
+                    artistType: "Shadows of Modernity",
+                    detailsData: [
+                        {
+                            title: "Price Range",
+                            subtitle: "$15,000",
+                        },
+                        {
+                            title: "Project Duration",
+                            subtitle: "5+ Months",
+                        },
+                        {
+                            title: "Area of Expertise",
+                            subtitle: "Fine Arts",
+                        },
+                    ],
+                },
+            ],
+        },
+        about: [
+            `Darrell Steward’s abstract art style is deeply rooted in the fluid movements of nature, where organic forms blend seamlessly with emotional expression. In his piece "Ethereal Visions," Steward delves into the realm of dreams and subconscious thought. Through soft hues and swirling patterns, the work evokes a sense of calm and wonder, as though the viewer is caught in the delicate balance between tranquility and mystery. The fluidity of the forms reflects the ephemeral nature of dreams, creating an experience that feels otherworldly yet intimately familiar.`,
+            `In "Modern Nostalgia," Steward explores the intersection of time by weaving together vintage motifs with contemporary design elements. The piece speaks to the tension between the past and present, where old-world charm is juxtaposed with modern minimalism. Through his use of geometric shapes and muted tones, Steward captures the fleeting nature of time, offering a narrative that encourages reflection on how history informs the now. The subdued color palette enhances the sense of nostalgia, while the modern structures give it a contemporary edge, resulting in a thought-provoking visual journey.`,
+            `"Street Serenade," in contrast, bursts with energy and life, capturing the vibrancy of urban existence. Steward uses a bold color palette and chaotic brushstrokes to represent the constant motion and hustle of city life. The piece embraces the beauty found in the mundane, as the swirling colors and textures mimic the movement of people, vehicles, and lights within a bustling metropolis. Through this dynamic portrayal, Steward reflects the pulse of the city, celebrating the everyday moments that define the urban experience.`,
+        ],
+        logOutDescription:
+            "Stay ahead with the latest in creativity by embracing new trends, ideas, and innovations in the ever-evolving world of design and artistry.",
+        recruiting: "Recruiting Heroes LLC, +1 More",
+        college: "American Samoa Community College",
+    },
+    {
+        profile: {
+            name: "Sandeep",
+            username: "@Sandeep_23",
+            followers: "3.5K",
+            following: 320,
+            artworks: 50,
+            gallery: {
+                name: "Interior Premium",
+                artworksCount: 13,
+            }
+        },
+        data: {
+            artworks: [
+                {
+                    about: [
+                        "An abstract exploration of color and form, where geometric shapes converge, collide, and fluidly merge to create a dynamic yet harmonious visual experience. Rooted in the Bauhaus movement’s principles, the composition emphasizes minimalism, functionality, and balance. The artwork incorporates clean, precise lines and bold geometric forms, blending traditional artistic elements with a modern, minimalist approach.",
+                        "The interplay of shapes and colors is both deliberate and organic, as angular and circular forms interact, creating a sense of motion and continuity. The subdued yet striking color palette complements the structured layout, inviting the viewer to experience a balance between simplicity and complexity.",
+                        "This contemporary reimagining of Bauhaus techniques brings together the discipline of geometry and the freedom of abstraction, resulting in a thoughtful composition that bridges the gap between classic and modern aesthetics. The portfolio embodies a fusion of functionality and artistry, where each form has purpose, yet the overall arrangement feels expressive and free.",
+                    ],
+                    date: "04 Oct 2024",
+                    artistType: "Geometric Harmony",
+                    detailsData: [
+                        {
+                            title: "Price Range",
+                            subtitle: "$10,000",
+                        },
+                        {
+                            title: "Project Duration",
+                            subtitle: "6+ Months",
+                        },
+                        {
+                            title: "Area of Expertise",
+                            subtitle: "Fine Arts",
+                        },
+                    ],
+                },
+                {
+                    about: [
+                        "This artwork juxtaposes two contrasting worlds: the tranquility of nature and the vibrant pulse of urban life. Through the use of soft brushstrokes and muted colors, it captures the peaceful essence of natural landscapes, evoking calmness and serenity. In contrast, the dynamic energy of bustling cityscapes is depicted with bold strokes and vibrant hues, showcasing the fast-paced rhythm of urban existence.",
+                        "At the heart of the portfolio lies an intricate mosaic of textures and patterns that blend both realms seamlessly. The juxtaposition of nature’s calm with the city’s intensity creates a compelling dialogue between stillness and motion, chaos and balance. ",
+                        "Every element—whether subtle or striking—works in unison to evoke a sense of harmony, where opposing forces coexist, reflecting the complexity and beauty of the world we inhabit.",
+                    ],
+                    date: "01 May 2024",
+                    artistType: "Shadows of Modernity",
+                    detailsData: [
+                        {
+                            title: "Price Range",
+                            subtitle: "$15,000",
+                        },
+                        {
+                            title: "Project Duration",
+                            subtitle: "5+ Months",
+                        },
+                        {
+                            title: "Area of Expertise",
+                            subtitle: "Fine Arts",
+                        },
+                    ],
+                },
+            ],
+        },
+        about: [
+            `Sandeep’s abstract art style is deeply rooted in the fluid movements of nature, where organic forms blend seamlessly with emotional expression. In his piece "Ethereal Visions," Steward delves into the realm of dreams and subconscious thought. Through soft hues and swirling patterns, the work evokes a sense of calm and wonder, as though the viewer is caught in the delicate balance between tranquility and mystery. The fluidity of the forms reflects the ephemeral nature of dreams, creating an experience that feels otherworldly yet intimately familiar.`,
+            `In "Modern Nostalgia," Steward explores the intersection of time by weaving together vintage motifs with contemporary design elements. The piece speaks to the tension between the past and present, where old-world charm is juxtaposed with modern minimalism. Through his use of geometric shapes and muted tones, Steward captures the fleeting nature of time, offering a narrative that encourages reflection on how history informs the now. The subdued color palette enhances the sense of nostalgia, while the modern structures give it a contemporary edge, resulting in a thought-provoking visual journey.`,
+            `"Street Serenade," in contrast, bursts with energy and life, capturing the vibrancy of urban existence. Steward uses a bold color palette and chaotic brushstrokes to represent the constant motion and hustle of city life. The piece embraces the beauty found in the mundane, as the swirling colors and textures mimic the movement of people, vehicles, and lights within a bustling metropolis. Through this dynamic portrayal, Steward reflects the pulse of the city, celebrating the everyday moments that define the urban experience.`,
+        ],
+        logOutDescription:
+            "Stay ahead with the latest in creativity by embracing new trends, ideas, and innovations in the ever-evolving world of design and artistry.",
+        recruiting: "Recruiting Heroes LLC, +1 More",
+        college: "American Samoa Community College",
+    },
+    {
+        profile: {
+            name: "Someone",
+            username: "@Someone_23",
+            followers: "3.5K",
+            following: 320,
+            artworks: 50,
+            gallery: {
+                name: "Interior Premium",
+                artworksCount: 13,
+            }
+        },
+        data: {
+            artworks: [
+                {
+                    about: [
+                        "An abstract exploration of color and form, where geometric shapes converge, collide, and fluidly merge to create a dynamic yet harmonious visual experience. Rooted in the Bauhaus movement’s principles, the composition emphasizes minimalism, functionality, and balance. The artwork incorporates clean, precise lines and bold geometric forms, blending traditional artistic elements with a modern, minimalist approach.",
+                        "The interplay of shapes and colors is both deliberate and organic, as angular and circular forms interact, creating a sense of motion and continuity. The subdued yet striking color palette complements the structured layout, inviting the viewer to experience a balance between simplicity and complexity.",
+                        "This contemporary reimagining of Bauhaus techniques brings together the discipline of geometry and the freedom of abstraction, resulting in a thoughtful composition that bridges the gap between classic and modern aesthetics. The portfolio embodies a fusion of functionality and artistry, where each form has purpose, yet the overall arrangement feels expressive and free.",
+                    ],
+                    date: "04 Oct 2024",
+                    artistType: "Geometric Harmony",
+                    detailsData: [
+                        {
+                            title: "Price Range",
+                            subtitle: "$10,000",
+                        },
+                        {
+                            title: "Project Duration",
+                            subtitle: "6+ Months",
+                        },
+                        {
+                            title: "Area of Expertise",
+                            subtitle: "Fine Arts",
+                        },
+                    ],
+                },
+                {
+                    about: [
+                        "This artwork juxtaposes two contrasting worlds: the tranquility of nature and the vibrant pulse of urban life. Through the use of soft brushstrokes and muted colors, it captures the peaceful essence of natural landscapes, evoking calmness and serenity. In contrast, the dynamic energy of bustling cityscapes is depicted with bold strokes and vibrant hues, showcasing the fast-paced rhythm of urban existence.",
+                        "At the heart of the portfolio lies an intricate mosaic of textures and patterns that blend both realms seamlessly. The juxtaposition of nature’s calm with the city’s intensity creates a compelling dialogue between stillness and motion, chaos and balance. ",
+                        "Every element—whether subtle or striking—works in unison to evoke a sense of harmony, where opposing forces coexist, reflecting the complexity and beauty of the world we inhabit.",
+                    ],
+                    date: "01 May 2024",
+                    artistType: "Shadows of Modernity",
+                    detailsData: [
+                        {
+                            title: "Price Range",
+                            subtitle: "$15,000",
+                        },
+                        {
+                            title: "Project Duration",
+                            subtitle: "5+ Months",
+                        },
+                        {
+                            title: "Area of Expertise",
+                            subtitle: "Fine Arts",
+                        },
+                    ],
+                },
+            ],
+        },
+        about: [
+            `Someone’s abstract art style is deeply rooted in the fluid movements of nature, where organic forms blend seamlessly with emotional expression. In his piece "Ethereal Visions," Steward delves into the realm of dreams and subconscious thought. Through soft hues and swirling patterns, the work evokes a sense of calm and wonder, as though the viewer is caught in the delicate balance between tranquility and mystery. The fluidity of the forms reflects the ephemeral nature of dreams, creating an experience that feels otherworldly yet intimately familiar.`,
+            `In "Modern Nostalgia," Steward explores the intersection of time by weaving together vintage motifs with contemporary design elements. The piece speaks to the tension between the past and present, where old-world charm is juxtaposed with modern minimalism. Through his use of geometric shapes and muted tones, Steward captures the fleeting nature of time, offering a narrative that encourages reflection on how history informs the now. The subdued color palette enhances the sense of nostalgia, while the modern structures give it a contemporary edge, resulting in a thought-provoking visual journey.`,
+            `"Street Serenade," in contrast, bursts with energy and life, capturing the vibrancy of urban existence. Steward uses a bold color palette and chaotic brushstrokes to represent the constant motion and hustle of city life. The piece embraces the beauty found in the mundane, as the swirling colors and textures mimic the movement of people, vehicles, and lights within a bustling metropolis. Through this dynamic portrayal, Steward reflects the pulse of the city, celebrating the everyday moments that define the urban experience.`,
+        ],
+        logOutDescription:
+            "Stay ahead with the latest in creativity by embracing new trends, ideas, and innovations in the ever-evolving world of design and artistry.",
+        recruiting: "Recruiting Heroes LLC, +1 More",
+        college: "American Samoa Community College",
+    },
+];

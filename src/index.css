@@ -29,3 +29,9 @@ input:-webkit-autofill {
     -webkit-transition: background-color 5000s ease-in-out 0s !important;
     transition: background-color 5000s ease-in-out 0s !important;
 }
+
+.toastCss {
+    background: darkblue !important;
+    color: #fff !important;
+    font-size: 20px !important;
+}

@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import SignInUsersData from "./SignInUsersData"
+import { toast, ToastContainer } from "react-toastify"
 
 const CurdOperations = () => {
     const [showData, setShowData] = useState(false)
@@ -49,6 +50,10 @@ const CurdOperations = () => {
         setStoredData(updateAfterDelete)
         console.log(`Deleting item at index: ${index}`, storedData);
     }
+    const notify = () => toast.success("It's a Success", {
+        position: "bottom-right",
+        className: "toastCss"
+    });
     return (
         <div className="p-3">
             <Link to={'/'}>Home</Link>
@@ -61,6 +66,8 @@ const CurdOperations = () => {
                 <input type="number" value={formValue.phoneNumber} name="phoneNumber" onChange={(e) => getValue(e)} />
                 <button type="submit">{indexState !== null ? "Update" : "Submit"}</button>
             </form>
+            <button onClick={notify}>Notify!</button>
+            <ToastContainer />
             <SignInUsersData storeData={storedData} showState={showData} handleUpdate={handleUpdate} handleDelete={handleDelete} handleIndex={handleIndex} />
         </div>
     )

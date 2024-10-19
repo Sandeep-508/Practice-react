@@ -13,6 +13,8 @@ import Timer from './components/Timer';
 import Question from './components/Questions';
 import FormValidation from './components/FormValidation';
 import CurdOperations from './components/CurdOperations';
+import PasswordGenerator from './components/PasswordGenerator';
+import SlugPractice from './components/SlugPractice';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 let Routes = createBrowserRouter(
@@ -56,7 +58,19 @@ let Routes = createBrowserRouter(
     {
       path: "/curd",
       element: <CurdOperations />
-    }
+    },
+    {
+      path: "/password",
+      element: <PasswordGenerator />
+    },
+    {
+      path: "/profile",
+      element: <SlugPractice />
+    },
+    {
+      path: "/profile-detail/:slug",
+      element: <SlugPractice />
+    },
   ]
 )
 root.render(
