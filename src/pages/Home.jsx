@@ -16,6 +16,7 @@ const Home = () => {
             <Link to={`/form`} className="text-blue ps-3">Form Validation</Link>
             <Link to={`/password`} className="text-blue ps-3">Password Generator</Link>
             <Link to={`/profile`} className="text-blue ps-3">Slug</Link>
+            <Link to={`/saving`} className="text-blue ps-3">Saving</Link>
             <p className="ps-3">hello i am Home section</p>
             <div className="flex items-center mt-3">
                 <p className="ps-3 text-4xl">Learn</p>

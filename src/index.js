@@ -15,6 +15,7 @@ import FormValidation from './components/FormValidation';
 import CurdOperations from './components/CurdOperations';
 import PasswordGenerator from './components/PasswordGenerator';
 import SlugPractice from './components/SlugPractice';
+import CalculateSaving from './components/CalculateSaving';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 let Routes = createBrowserRouter(
@@ -22,6 +23,10 @@ let Routes = createBrowserRouter(
     {
       path: "/",
       element: <Home />
+    },
+    {
+      path: "/saving",
+      element: <CalculateSaving />
     },
     {
       path: "/about",
